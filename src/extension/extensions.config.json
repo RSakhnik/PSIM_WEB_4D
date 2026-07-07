@@ -1,0 +1,21 @@
+{
+  "author": "S.K.E.",
+  "license": "MIT",
+
+  "extension": {
+    "name": "4D WorkSchedule",
+    "description": "",
+    "entry": "vue_ext.js",
+    "modules": [
+      { "ngModuleName": "HelperExtension", "exposedInterface": "IInitializable" }
+    ]
+  },
+
+  "pilotWeb3D": [
+    {
+      "name": "ProductName321.Web3DExtension",
+      "description": "",
+      "entry": "web3d.js"
+    }
+  ]
+}
